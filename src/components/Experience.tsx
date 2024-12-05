@@ -4,7 +4,7 @@ const Experience: React.FC = () => {
   const experiences = [
     {
       jobTitle: "Full Stack Developer",
-      company: "TechCorp Solutions",
+      company: "SpaceX",
       timeline: "2023 - Present",
       responsibilities: [
         "Developed and maintained the front-end and back-end of e-commerce platforms.",
@@ -15,7 +15,7 @@ const Experience: React.FC = () => {
     },
     {
       jobTitle: "Software Engineer",
-      company: "Web Innovators",
+      company: "META VERSE",
       timeline: "2022 - 2023",
       responsibilities: [
         "Built interactive web applications using Angular and React.",

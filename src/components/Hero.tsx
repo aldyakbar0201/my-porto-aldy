@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Hero: React.FC = () => {
   return (
@@ -8,10 +8,15 @@ const Hero: React.FC = () => {
     >
       <h1 className="text-5xl font-bold">Hello, I'm Aldy Hidayatul Akbar</h1>
       <p className="mt-4 text-lg">Full-Stack Web Developer</p>
-      <p className="mt-2 text-sm">Building scalable and high-performance web solutions</p>
-      <button className="mt-6 bg-white text-black px-6 py-3 rounded-lg shadow-md hover:bg-gray-200">
+      <p className="mt-2 text-sm">
+        Building scalable and high-performance web solutions
+      </p>
+      <a
+        href="#portfolio-section"
+        className="mt-6 bg-white text-black px-6 py-3 rounded-lg shadow-md hover:bg-gray-200"
+      >
         View Portfolio
-      </button>
+      </a>
     </section>
   );
 };

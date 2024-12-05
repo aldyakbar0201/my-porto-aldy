@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
           {/* Left Section */}
           <div className="mb-4 md:mb-0">
             <p className="text-center md:text-left text-lg">
-              &copy; {new Date().getFullYear()} Aldy Hidayatul Akbar. All Rights
+              &copy; {new Date().getFullYear()} Aldyhidayatulakbar0201@gmial.com. All Rights
               Reserved.
             </p>
           </div>
