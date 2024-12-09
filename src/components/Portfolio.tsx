@@ -57,7 +57,7 @@ const Portfolio: React.FC = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300"
+              className="bg-black rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300"
             >
               <img
                 src={project.image}
@@ -73,7 +73,7 @@ const Portfolio: React.FC = () => {
                 </p>
                 <button
                   onClick={() => setActiveProjectIndex(index)}
-                  className="mt-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition"
+                  className="mt-4 bg-gray-600 text-white px-4 py-2 rounded hover:bg-green-600 transition"
                 >
                   View Details
                 </button>
