@@ -44,9 +44,9 @@ const Experience: React.FC = () => {
           {experiences.map((experience, index) => (
             <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-lg">
               <h3 className="text-2xl font-semibold text-green-500">{experience.jobTitle}</h3>
-              <p className="text-gray-400 text-sm mb-2">{experience.company}</p>
-              <p className="text-gray-400 text-sm mb-4">{experience.timeline}</p>
-              <ul className="list-disc pl-6 text-gray-300">
+              <p className="text-white text-sm mb-2">{experience.company}</p>
+              <p className="text-white text-sm mb-4">{experience.timeline}</p>
+              <ul className="list-disc pl-6 text-white">
                 {experience.responsibilities.map((responsibility, idx) => (
                   <li key={idx}>{responsibility}</li>
                 ))}

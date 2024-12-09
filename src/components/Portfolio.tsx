@@ -68,7 +68,7 @@ const Portfolio: React.FC = () => {
                 <h3 className="text-2xl font-semibold text-green-500">
                   {project.title}
                 </h3>
-                <p className="text-gray-400 text-sm mb-2">
+                <p className="text-white text-sm mb-2">
                   Technologies: {project.technologies.join(", ")}
                 </p>
                 <button
@@ -95,7 +95,7 @@ const Portfolio: React.FC = () => {
               <h3 className="text-2xl font-bold mb-4">
                 {projects[activeProjectIndex].title}
               </h3>
-              <p className="text-sm text-gray-600 mb-4">
+              <p className="text-sm text-black mb-4">
                 <strong>Technologies:</strong>{" "}
                 {projects[activeProjectIndex].technologies.join(", ")}
               </p>

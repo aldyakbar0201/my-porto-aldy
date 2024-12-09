@@ -2,7 +2,7 @@ import React from "react";
 
 const skills = [
   {
-    category: "Front-End", items: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS, Figma"],
+    category: "Front-End", items: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Figma"],
   },
   { category: "Back-End", items: ["Node.js", "Express", "MongoDB", "Python"] },
   { category: "DevOps", items: ["Docker", "Git", "AWS", "MySql"] },

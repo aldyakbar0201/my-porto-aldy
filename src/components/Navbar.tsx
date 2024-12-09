@@ -13,6 +13,7 @@ const Navbar: React.FC = () => {
         <button
           className="block md:hidden text-white focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
+          aria-label="button label"
         >
           <svg
             className="w-6 h-6"

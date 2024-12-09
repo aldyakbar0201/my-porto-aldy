@@ -47,10 +47,10 @@ const Testimonials: React.FC = () => {
                   <p className="font-semibold text-green-500">
                     {testimonial.name}
                   </p>
-                  <p className="text-gray-400 text-sm">{testimonial.title}</p>
+                  <p className="text-white text-sm">{testimonial.title}</p>
                 </div>
               </div>
-              <p className="text-gray-300 mt-4">"{testimonial.testimonial}"</p>
+              <p className="text-white mt-4">"{testimonial.testimonial}"</p>
             </div>
           ))}
         </div>
