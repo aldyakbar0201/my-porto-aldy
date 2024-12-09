@@ -45,11 +45,11 @@ const Portfolio: React.FC = () => {
   ];
 
   return (
-    <section id="portfolio" className="py-20 bg-gray-100 text-black">
+    <section id="portfolio" className="py-20 bg-white text-black">
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
         <h2
           id="portfolio-section"
-          className="text-3xl font-bold text-center text-green-500 mb-6"
+          className="text-3xl font-bold text-center text-green-600 mb-6"
         >
           Portfolio
         </h2>

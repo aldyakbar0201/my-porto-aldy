@@ -20,6 +20,7 @@ const Footer: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition duration-300"
+              aria-label="link to my github"
             >
               <i className="fab fa-github text-2xl"></i>
             </a>
@@ -28,6 +29,7 @@ const Footer: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition duration-300"
+              aria-label="link to my linkedin"
             >
               <i className="fab fa-linkedin text-2xl"></i>
             </a>
@@ -36,6 +38,7 @@ const Footer: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition duration-300"
+              aria-label="link to my instagram"
             >
               <i className="fab fa-instagram text-2xl"></i>
             </a>
